@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/activity_on_boarding_empat.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/detail_buku.xml" value="0.18" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/fragment_on_boarding3.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/fragment_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/home_libio.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/input_tanggal_peminjaman.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/konfirmasi_peminjaman.xml" value="0.20416666666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/list_buku_baru.xml" value="0.33" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/list_buku_rekom.xml" value="0.2" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/login.xml" value="0.19010416666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/loginn.xml" value="0.19947916666666668" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/profile.xml" value="0.19010416666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/register.xml" value="0.19947916666666668" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/sign_up.xml" value="0.19010416666666666" />
+        <entry key="..\:/KUMPULAN TUGAS SEMESTER 5/project_fix_mobile/app/src/main/res/layout/sirkulasi.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

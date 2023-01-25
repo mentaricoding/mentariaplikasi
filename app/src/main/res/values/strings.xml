@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LIBIO</string>
+    <string name="ob1">Pinjam Buku Jadi Mudah</string>
+    <string name="ob2">Cari</string>
+    <string name="ob3">Pinjam</string>
+    <string name="ob4">Baca</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ket_daftar">Belum punya keanggotaan?</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>

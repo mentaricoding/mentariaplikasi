@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="413dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="784dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/header" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="95dp"
+        >
+
+        <TextView
+            android:id="@+id/judul_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="25dp"
+            android:text="Buku Terbaru"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/card"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="85dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/bukubaru1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="15dp"
+                    android:text="The Things You Can See Only When You Slow Down"
+                    android:textColor="@color/primary_color"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Status:Sedang Dipinjam"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/ket_tgl"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Harus Dikembalikan pada:"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tgl"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="18 Januari 2023"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/card"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="85dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/bukubaru2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul2"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="15dp"
+                    android:text="The Things You Can See Only When You Slow Down"
+                    android:textColor="@color/primary_color"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status2"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Status:Sedang Dipinjam"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/ket_tgl2"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Harus Dikembalikan pada:"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tgl2"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="18 Januari 2023"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/card"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="85dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/bukubaru3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul3"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="15dp"
+                    android:text="The Things You Can See Only When You Slow Down"
+                    android:textColor="@color/primary_color"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status3"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Status:Sedang Dipinjam"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/ket_tgl3"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Harus Dikembalikan pada:"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tgl3"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="18 Januari 2023"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/card"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="85dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@mipmap/bukubaru5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/judul4"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="15dp"
+                    android:text="The Things You Can See Only When You Slow Down"
+                    android:textColor="@color/primary_color"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status4"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Status:Sedang Dipinjam"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/ket_tgl4"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Harus Dikembalikan pada:"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tgl4"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="18 Januari 2023"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/secondary_color"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

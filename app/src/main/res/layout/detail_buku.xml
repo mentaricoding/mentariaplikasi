@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="413dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="784dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/header" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+
+        <ImageView
+            android:id="@+id/gambar_buku"
+            android:layout_width="233dp"
+            android:layout_height="292dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/buku1" />
+
+        <TextView
+            android:id="@+id/judul_buku"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="32dp"
+            android:gravity="center"
+            android:text="The Things You Can See Only When You Slow Down"
+            android:textColor="@color/primary_color"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/detailbuku"
+            android:layout_width="297dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/detail" />
+
+        <TextView
+            android:id="@+id/sinopsis_header"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="20dp"
+            android:text="Sinopsis"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sinopsis_content"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text="The Things You Can See Only When You Slow Down is a collection of Zen Buddhist wisdom written by the “Twitter Monk” Haemin Sunim (see his account here). It's a guide to becoming more mindful in a busy world, and is divided into different sections such as relationships, passion, life, the future and spirituality."
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondary_color"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/penulis_header"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="Penulis"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/penulis_content"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="5dp"
+            android:text="Haemin Sunim"
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondary_color"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/penerbit_header"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="Sinopsis"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/penerbit_content"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text="Penguin Books"
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondary_color"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/isbn_header"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="ISBN"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isbn_content"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text="978-0-14-313077-2"
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondary_color"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tahunterbit_header"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="Tahun Terbit"
+            android:textColor="@color/primary_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tahunterbit_content"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text="2012"
+            android:textAlignment="viewStart"
+            android:textColor="@color/secondary_color"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="287dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_masuk"
+            android:text="Pinjam Buku"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tahunterbit_content"
+            app:layout_constraintVertical_bias="0.569" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
